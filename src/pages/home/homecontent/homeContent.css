@@ -1,0 +1,65 @@
+/* .content-container{
+    display: flex;
+    height: 100vh;
+    background-image: url('../../../assets/img/background/home-full-background-image.png');
+    background-size: cover;
+    background-position: center;
+  } */
+
+  
+
+.appbg{
+  background-image: url('../../../assets/img/background/home-full-background-image.png');
+  background-size: cover;
+  background-position:center;
+}
+
+.btn1{
+  background-color: white;
+  width: 25%;
+  letter-spacing: 0.2px;
+  font-size: 11px;
+  padding: 5px;
+  border: 0px ;
+  border-radius: 50px;
+  border-top: 3px solid red;
+ 
+}
+
+.span1{
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+
+.foodimg{
+  border: 2px solid red;
+}
+
+.btn2{
+  border: 2px black solid;
+  
+}
+
+.imageMillet{
+  
+    /* width: 800;
+    height:  800; */
+    /* margin-top: 7em; */
+    margin-right: -30rem;
+    /* margin-bottom: 7em; */
+    /* padding: 2em; */
+    text-align: left;
+    position: relative;
+    background-image:  url('../../../assets/img/home/white-circle.png');
+    /* background-image:  url('../../../assets/img/home/image1.png'); */
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 215px center;
+    /* left: 20px; */
+}
+.home-image{
+position: right;
+}
+

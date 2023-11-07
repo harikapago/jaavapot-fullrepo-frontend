@@ -1,0 +1,138 @@
+.home-feature-panel {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  /* background-image: url(https://img.freepik.com/free-photo/overhead-view-oats-healthy-breakfast-dryfruits-textured-white-background_23-2147885697.jpg); */
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+  /* opacity: 0.2; */
+}
+
+.home-feature-panel-icon-cta-link label {
+  cursor: pointer;
+  color: #ca9700;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 930px){
+.home-feature-panel-content {
+  transform: scale(0.9,.9);
+  margin-top: 4em;
+  margin-bottom: 3em;
+}
+}
+
+.home-feature-panel-content {
+  width: 388px;
+  height: 388px;
+  margin-top: 7em;
+  margin-bottom: 7em;
+  padding: 2em;
+  text-align: center;
+  position: relative;
+  /* background-image: url(../images/feature-panel-wheel.png); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+* {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+
+.home-feature-panel-icon-cta-link:nth-child(1) {
+  left: 50%;
+  margin-left: -27px;
+  top: -81px;
+}
+
+
+.home-feature-panel-icon-cta-link {
+  position: absolute;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  font-size: .8em;
+  line-height: 110%;
+  font-weight: 400;
+}
+a {
+  transition: all .4s 0s ease-in-out;
+  color: #000;
+}
+
+.home-feature-panel-icon-cta-link:nth-child(2) {
+  top: 16px;
+  right: -38px;
+}
+
+a:link {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@media (max-width: 930px){
+.home-feature-panel-icon-cta-link {
+  font-size: 1em;
+}
+}
+
+.home-feature-panel-icon-cta-link:nth-child(3) {
+  top: 200px;
+  right: -90px;
+}
+
+.home-feature-panel-icon-cta-link:nth-child(4) {
+  bottom: -100px;
+  right: 60px;
+  flex-direction: column-reverse;
+}
+
+.home-feature-panel-icon-cta-link:nth-child(5) {
+  bottom: -82px;
+  left: 57px;
+  flex-direction: column-reverse;
+}
+.home-feature-panel-icon-cta-link:nth-child(6) {
+  top: 184px;
+  left: -95px;
+}
+.home-feature-panel-icon-cta-link:nth-child(7) {
+  top: -15px;
+  left: -25px;
+}
+
+.home-feature-panel-link-content {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+.home-feature-panel-link {
+  background: #ca9700;
+  color: #fff;
+  text-align: center;
+  width: 11em;
+  height: 11em;
+  border-radius: 100%;
+  margin: 3em auto;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 2em 0 rgba(0,0,0,.4);
+}
+/* a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+} */
